@@ -1,0 +1,53 @@
+
+.logo{
+    width: 116px;
+    height: 26px;
+    top: 36px;
+    left: 149px;
+    gap: 10px;
+    padding-left: 5%;
+}
+
+    .container {
+      display: flex;
+      width: 10
+      0%;
+      max-width: 1200px;
+    }
+    .text-section {
+      flex: 1;
+      padding-right: 45px;
+      margin-left: 5%;
+    }
+    .text-section h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      width: 438px;
+      height: 156px;
+    }
+    .text-section p {
+      font-size: 1rem;
+      color: #9a9ea5;
+      margin-bottom: 20px;
+    }
+    .text-section button {
+      padding: 10px 20px;
+      background-color: #86FDE8;
+      border: #86FDE8;
+      border-radius: 30px ;
+      color: black;
+      font-size: 1rem;
+      gap: 10;
+    }
+    .image-section {
+        direction: rtl;
+      width: 854px;
+      height: 854px;
+      top: -27px;
+      left: 720px;
+      padding-left: 19%;
+    }
+    
+  
+
+

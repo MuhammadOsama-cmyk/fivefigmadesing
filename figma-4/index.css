@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, #fdf5d5, #fdf0b5); 
+    color: #000;
+  }
+
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+  }
+
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1em;
+  }
+
+
+  .btn-contact {
+    background: linear-gradient(90deg, #ffe259, #ffa751); 
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    border-radius: 30px;
+    text-transform: uppercase;
+  }
+
+
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    float: left;
+  }
+
+  .social-icons a {
+    color: #000;
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+  }
+
+  .hero-text {
+    max-width: 50%;
+  }
+
+  .hero-text h1 {
+    font-size: 3em;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .hero-text p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 20px 0;
+  }
+
+  .btn-get-started {
+    background: linear-gradient(90deg,  #ffe259, #ffa751); 
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  
+  .hero-image {
+    max-width: 40%;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+  }
